@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ホームページ</title>
+    <link rel="icon" type="image/png" href="assets/icon/logo.PNG">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Shippori+Mincho:wght@500;600&display=swap" rel="stylesheet">
+    <link href="css/reset.css"  rel="stylesheet">
+    <link href="css/sp.css" rel="stylesheet">
+    <link href="css/pc.css" rel="stylesheet">
+    <link href="css/comp.css" rel="stylesheet">
+</head>
+<body>
+<div class="l-wrap" id="l-wrap">
+    <div class="l-wrap__inner">
+        <div class="p-load">
+            <div class="p-load__inner">
+                <div class="p-load__block">
+                    <div class="p-load__logo">
+                        <img src="assets/icon/logo.PNG">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-scrolldot">
+            <div class="p-scrolldot__inner">
+                <div class="p-scrolldot__block">
+                    <div class="p-scrolldot__dot">
+                        <div>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-menu">
+            <div class="p-menu__block">
+                <div class="p-menu__list">
+                    <a href="">
+                        <p class="c-fS c-palt">トップ</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="p-menu__list">
+                    <a href="">
+                        <p class="c-fS c-palt">お菓子の紹介</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="p-menu__list">
+                    <a href="">
+                        <p class="c-fS c-palt">くわどら</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                    <p class="p-menu__border"> | </p>
+                    <a href="">
+                        <p class="c-fS c-palt">上生菓子</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                    <p class="p-menu__border sp__border"> | </p>
+                    <a href="">
+                        <p class="c-fS c-palt">茶まんじゅう</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                    <p class="p-menu__border"> | </p>
+                    <a href="">
+                        <p class="c-fS c-palt">みかんの丘</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                    <p class="p-menu__border sp__border"> | </p>
+                    <a href="">
+                        <p class="c-fS c-palt">バターどらやき</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                    <p class="p-menu__border pc__border"> | </p>
+                    <a href="">
+                        <p class="c-fS c-palt">りんごの樹</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                    <p class="p-menu__border"> | </p>
+                    <a href="">
+                        <p class="c-fS c-palt">桜石</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                    <p class="p-menu__border sp__border"> | </p>
+                    <a href="">
+                        <p class="c-fS c-palt">いしかわ満月</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                    <p class="p-menu__border"> | </p>
+                    <a href="">
+                        <p class="c-fS c-palt">焼ショコラ</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                    <p class="p-menu__border"> | </p>
+                    <a href="">
+                        <p class="c-fS c-palt">焼ドーナツ</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                    <p class="p-menu__border sp__border"> | </p>
+                    <a href="">
+                        <p class="c-fS c-palt">クリームチーズのお月さま</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="p-menu__list">
+                    <a href="">
+                        <p class="c-fS c-palt">あんこをとる</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="p-menu__list">
+                    <a href="">
+                        <p class="c-fS c-palt">店舗情報</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="p-menu__list">
+                    <a href="">
+                        <p class="c-fS c-palt">和菓子雑学</p>
+                        <div>
+                            <span class="p-menu__hover"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="p-menu__logo">
+                    <a href="">
+                        <img src="assets/icon/logo-w.PNG">
+                    </a>
+                </div>
+                <div class="p-menu__tel">
+                    <p class="c-palt c-fO">TEL.
+                        <a href="tel:0000-00-0000">0000-00-0000</a>
+                    </p>
+                </div>
+                <div class="p-menu__onlineshop">
+                    <a href="">
+                        <p class="c-palt c-fO">Online Shop</p>
+                    </a>
+                </div>
+                <div class="p-menu__sns">
+                    <a href="">
+                        <img src="assets/icon/insta-w.PNG">
+                    </a>
+                    <a href="">
+                        <img src="assets/icon/mail.PNG">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <header class="p-header">
+            <div class="p-header__inner">
+                <div class="p-header__block">
+                    <div class="p-header__menuBtn">
+                        <a>
+                            <div>
+                                <span>
+                                    <span></span>
+                                </span>
+                            </div>
+                            <div>
+                                <span>
+                                    <span></span>
+                                </span>
+                            </div>
+                            <div>
+                                <span>
+                                    <span></span>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="p-header__onlineshop">
+                        <a href="">
+                            <img src="assets/icon/cart.PNG">
+                            <img src="assets/icon/cart-w.PNG">
+                        </a>
+                    </div>
+                    <div class="p-header__title">
+                        <a href="">
+                            <p class="c-fS c-palt">くわざわ</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="p-main">
+            <div class="p-main__inner">
+                <section class="p-firstview p-section">
+                    <div class="p-firstview__inner p-section__inner">
+                        <div class="p-firstview__block p-section__block">
+                            <div class="p-firstview__copy">
+                                <h1 class="c-fS c-palt">
+                                    <span class="p-firstview__letter p-firstview__letter1">本</span>
+                                    <span class="p-firstview__letter p-firstview__letter2">日</span>
+                                    <span class="p-firstview__letter p-firstview__letter3">、</span>
+                                    <br>
+                                    <span class="p-firstview__letter p-firstview__letter4">和</span>
+                                    <span class="p-firstview__letter p-firstview__letter5">菓</span>
+                                    <span class="p-firstview__letter p-firstview__letter6">子</span>
+                                    <br>
+                                    <span class="p-firstview__letter p-firstview__letter7">日</span>
+                                    <span class="p-firstview__letter p-firstview__letter8">和</span>
+                                    <span class="p-firstview__letter p-firstview__letter9">。</span>
+                                </h1>
+                            </div>
+                            <div class="p-firstview__scroll">
+                                <p class="c-fS c-palt">
+                                    <span>ス</span>
+                                    <span>ク</span>
+                                    <span>ロ</span>
+                                    <span>ー</span>
+                                    <span>ル</span>
+                                </p>
+                            </div>
+                            <div class="p-slider" id="p-slider">
+                                <div class="p-slider__list">
+                                    <a href="">
+                                        <img src="assets/slider/slider1.PNG">
+                                    </a>
+                                </div>
+                                <div class="p-slider__list">
+                                    <a href="">
+                                        <img src="assets/slider/slider2.PNG">
+                                    </a>
+                                </div>
+                                <div class="p-slider__list">
+                                    <a href="">
+                                        <img src="assets/slider/slider3.PNG">
+                                    </a>
+                                </div>
+                                <div class="p-slider__list p-slider__list1">
+                                    <a href="">
+                                        <img src="assets/slider/slider4.PNG">
+                                    </a>
+                                </div>
+                                <div class="p-slider__list p-slider__list2">
+                                    <a href="">
+                                        <img src="assets/slider/slider5.PNG">
+                                    </a>
+                                </div>
+                                <div class="p-slider__list p-slider__list3">
+                                    <a href="">
+                                        <img src="assets/slider/slider6.PNG">
+                                    </a>
+                                </div>
+                                <div class="p-slider__list p-slider__list4">
+                                    <a href="">
+                                        <img src="assets/slider/slider7.PNG">
+                                    </a>
+                                </div>
+                                <div class="p-slider__list p-slider__list5">
+                                    <a href="">
+                                        <img src="assets/slider/slider8.PNG">
+                                    </a>
+                                </div>
+                                <div class="p-slider__list p-slider__list6">
+                                    <a href="">
+                                        <img src="assets/slider/slider9.PNG">
+                                    </a>
+                                </div>
+                                <div class="p-slider__list p-slider__list7">
+                                    <a href="">
+                                        <img src="assets/slider/slider10.PNG">
+                                    </a>
+                                </div>
+                                <div class="p-slider__list">
+                                    <a href="">
+                                        <img src="assets/slider/slider11.PNG">
+                                    </a>
+                                </div>
+                                <div class="p-slider__list">
+                                    <a href="">
+                                        <img src="assets/slider/slider12.PNG">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="p-about p-section">
+                    <div class="p-section__inner">
+                        <div class="p-section__title p-about__mainTitle scroll__element scroll__off scroll__off1">
+                            <div>
+                                <span class="p-section__titleLine"></span>
+                            </div>
+                        </div>
+                        <div class="p-section__block">
+                            <div class="p-about__title scroll__element scroll__off scroll__off1">
+                                <p class="c-fS c-palt">
+                                    創業明治二十年<br>老舗の推しあんこ
+                                </p>
+                            </div>
+                            <div class="p-about__text scroll__element scroll__off scroll__off1">
+                                <p class="c-fS c-palt">
+                                    福島県石川町にある創業明治20年の和菓子店です｡<br>創業当時から変わらぬ製法の茶まんじゅうや<br>どら焼きに生クリームをサンドした人気のくわどら<br>職人が彩りを加える季節の上生菓子など｡<br>手作りだから出会える味わいを､お楽しみください｡
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="p-recommend p-section">
+                    <div class="p-section__inner p-recommend__inner">
+                        <div class="p-section__title p-recommend__mainTitle scroll__element scroll__off scroll__off1">
+                            <div>
+                                <span class="p-section__titleLine"></span>
+                            </div>
+                            <h2 class="c-fS c-palt">じまんのお菓子</h2>
+                        </div>
+                        <div class="p-section__block">
+                            <div class="p-recommend__list p-recommend__list1 scroll__element scroll__off scroll__off2">
+                                <div class="p-recommend__img">
+                                    <div>
+                                        <img src="assets/slider/slider3.PNG" class="scroll__imgBig">
+                                    </div>
+                                </div>
+                                <div class="p-recommend__text">
+                                    <div>
+                                        <p class="p-recommend__text1 c-fS c-palt">くわどら</p>
+                                        <p class="p-recommend__text2 c-fS c-palt">ふわっとした皮と自家製のつぶあん<br>中にプレミアムな生クリーム。<br>幸せサンドのくわざわ新名物。</p>
+                                        <a class="p-section__detail" href="">
+                                            <p class="c-fS c-palt">詳しく</p>
+                                            <div>
+                                                <span class="p-section__detailScroll">
+                                                    <span class="p-section__detailHover"></span>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-recommend__list p-recommend__list2 scroll__element scroll__off scroll__off2">
+                                <div class="p-recommend__img">
+                                    <div>
+                                        <img src="assets/slider/slider2.PNG" class="scroll__imgBig">
+                                        <img src="assets/slider/slider11.PNG" class="scroll__imgBig">
+                                        <img src="assets/slider/slider13.PNG" class="scroll__imgBig">
+                                    </div>
+                                </div>
+                                <div class="p-recommend__text">
+                                    <div>
+                                        <p class="p-recommend__text1 c-fS c-palt">上生菓子</p>
+                                        <p class="p-recommend__text2 c-fS c-palt">季節の装いを<span style="letter-spacing: -0.075em">纏</span><span style="letter-spacing: -0.075em">っ</span>た日本の伝統菓子｡<br>ハレの日も、そうでない日も<br>和菓子のアートを楽しんで｡</p>
+                                        <a class="p-section__detail" href="">
+                                            <p class="c-fS c-palt">詳しく</p>
+                                            <div>
+                                                <span class="p-section__detailScroll">
+                                                    <span class="p-section__detailHover"></span>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-recommend__list p-recommend__list3 scroll__element scroll__off scroll__off2">
+                                <div class="p-recommend__img">
+                                    <div>
+                                        <img src="assets/other/azuki.PNG" class="scroll__imgBig">
+                                        <img src="assets/slider/slider10.PNG" class="scroll__imgBig">
+                                    </div>
+                                </div>
+                                <div class="p-recommend__text">
+                                    <div>
+                                        <p class="p-recommend__text1 c-fS c-palt">茶まんじゅう</p>
+                                        <p class="p-recommend__text2 c-fS c-palt">自家製のあんこを味わって欲しい<br>愛され続ける茶色のフォルム。<br>変わらぬ美味しさの茶まんじゅう。</p>
+                                        <a class="p-section__detail" href="">
+                                            <p class="c-fS c-palt">詳しく</p>
+                                            <div>
+                                                <span class="p-section__detailScroll">
+                                                    <span class="p-section__detailHover"></span>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-recommend__list p-recommend__list4 scroll__element scroll__off scroll__off2">
+                                <div class="p-recommend__img">
+                                    <div>
+                                        <img src="assets/other/orange.PNG" class="scroll__imgBig">
+                                        <img src="assets/slider/slider8.PNG" class="scroll__imgBig">
+                                    </div>
+                                </div>
+                                <div class="p-recommend__text">
+                                    <div>
+                                        <p class="p-recommend__text1 c-fS c-palt">みかんの丘</p>
+                                        <p class="p-recommend__text2 c-fS c-palt">みかんのおいしさを焼き菓子に。<br>しっとりと焼き上げた生地の中にも<br>みかんが入っています。</p>
+                                        <a class="p-section__detail" href="">
+                                            <p class="c-fS c-palt">詳しく</p>
+                                            <div>
+                                                <span class="p-section__detailScroll">
+                                                    <span class="p-section__detailHover"></span>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-recommend__list p-recommend__list5 scroll__element scroll__off scroll__off2">
+                                <div class="p-recommend__img">
+                                    <div>
+                                        <img src="assets/slider/slider9.PNG" class="scroll__imgBig">
+                                        <img src="assets/other/butter.PNG" class="scroll__imgBig">
+                                    </div>
+                                </div>
+                                <div class="p-recommend__text">
+                                    <div>
+                                        <p class="p-recommend__text1 c-fS c-palt">バターどら焼き</p>
+                                        <p class="p-recommend__text2 c-fS c-palt">定番のどら焼きにもう一声。<br>コクを感じる濃厚バターを<br>ひと塗りすれば深い味わいに。</p>
+                                        <a class="p-section__detail" href="">
+                                            <p class="c-fS c-palt">詳しく</p>
+                                            <div>
+                                                <span class="p-section__detailScroll">
+                                                    <span class="p-section__detailHover"></span>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="p-other p-section">
+                    <div class="p-section__inner p-other__inner">
+                        <div class="p-section__title p-other__mainTitle scroll__element scroll__off scroll__off1">
+                            <div>
+                                <span class="p-section__titleLine"></span>
+                            </div>
+                            <h2 class="c-fS c-palt">他のじまんのお菓子</h2>
+                        </div>
+                        <div class="p-section__block p-other__block">
+                            <div class="p-other__list scroll__element scroll__off scroll__off2">
+                                <a href="">
+                                    <div class="p-other__img scroll__imgBig">
+                                        <img src="assets/slider/slider1.PNG">
+                                    </div>
+                                    <div class="p-other__text">
+                                        <p class="c-fS c-palt">りんごの<br>たい焼き</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-other__list scroll__element scroll__off scroll__off2">
+                                <a href="">
+                                    <div class="p-other__img scroll__imgBig">
+                                        <img src="assets/slider/slider12.PNG">
+                                    </div>
+                                    <div class="p-other__text">
+                                        <p class="c-fS c-palt">カステラ<br>桜石</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-other__list scroll__element scroll__off scroll__off2">
+                                <a href="">
+                                    <div class="p-other__img scroll__imgBig">
+                                        <img src="assets/slider/slider7.PNG">
+                                    </div>
+                                    <div class="p-other__text">
+                                        <p class="c-fS c-palt">紅葉<br>まんじゅう</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-other__list scroll__element scroll__off scroll__off2">
+                                <a href="">
+                                    <div class="p-other__img scroll__imgBig">
+                                        <img src="assets/slider/slider6.PNG">
+                                    </div>
+                                    <div class="p-other__text">
+                                        <p class="c-fS c-palt">粒あん<br>さくら餅</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-other__list scroll__element scroll__off scroll__off2">
+                                <a href="">
+                                    <div class="p-other__img scroll__imgBig">
+                                        <img src="assets/slider/slider4.PNG">
+                                    </div>
+                                    <div class="p-other__text">
+                                        <p class="c-fS c-palt">焼き<br>ドーナツ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-other__list scroll__element scroll__off scroll__off2">
+                                <a href="">
+                                    <div class="p-other__img scroll__imgBig">
+                                        <img src="assets/slider/slider2.PNG">
+                                    </div>
+                                    <div class="p-other__text">
+                                        <p class="c-fS c-palt">お花の<br>練り切り</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="p-intro p-section">
+                    <div class="p-section__inner">
+                        <div class="p-section__title p-intro__mainTitle scroll__element scroll__off scroll__off1">
+                            <div>
+                                <span class="p-section__titleLine"></span>
+                            </div>
+                        </div>
+                        <div class="p-section__block p-intro__block">
+                            <div class="p-intro__list scroll__element scroll__off scroll__off2">
+                                <a href="">
+                                    <div class="p-intro__img">
+                                        <img src="assets/other/transparent.PNG">
+                                        <div class="p-section__circle">
+                                            <span class="scroll__imgSmall">
+                                                <span></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="p-intro__text">
+                                        <p class="p-intro__text1 c-fS c-palt">あんこをとる</p>
+                                        <p class="p-intro__text2 c-fS c-palt">和菓子屋さんが丁寧に作り上げた<br>おいしいあんこ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-intro__list scroll__element scroll__off scroll__off2">
+                                <a href="">
+                                    <div class="p-intro__img">
+                                        <img src="assets/other/transparent.PNG">
+                                        <div class="p-section__circle">
+                                            <span class="scroll__imgSmall">
+                                                <span></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="p-intro__text">
+                                        <p class="p-intro__text1 c-fS c-palt">私たちについて</p>
+                                        <p class="p-intro__text2 c-fS c-palt">福島県石川町で明治二十年から<br>営業しております。</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-intro__list scroll__element scroll__off scroll__off2">
+                                <a href="">
+                                    <div class="p-intro__img">
+                                        <img src="assets/other/transparent.PNG">
+                                        <div class="p-section__circle">
+                                            <span class="scroll__imgSmall">
+                                                <span></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="p-intro__text">
+                                        <p class="p-intro__text1 c-fS c-palt">和菓子雑学</p>
+                                        <p class="p-intro__text2 c-fS c-palt">お菓子の歴史や、豆知識などの<br>あれやこれ。</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="p-news p-section">
+                    <div class="p-section__inner">
+                        <div class="p-section__title p-news__mainTitle scroll__element scroll__off scroll__off1">
+                            <h2 class="p-news__titleInsta c-fO c-palt">Instagtam</h2>
+                        </div>
+                        <div class="p-section__block p-news__block">
+                            <div class="p-news__list scroll__element scroll__off scroll__off2">
+                                <a href="">
+                                    <div class="p-news__img">
+                                        <img src="assets/other/transparent.PNG">
+                                        <div>
+                                            <span class="scroll__imgSmall">
+                                                <span></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="p-news__text">
+                                        <p class="p-news__textDate c-fO c-palt">2022.12.10</p>
+                                        <p class="p-news__textDisc c-fS c-palt">・　先日の定休日　午前中、納品をかるく済ませ　須賀川のカフェに　ご飯食べに行きました。　
+                                            ちょうどランチの時間で満席。　繁盛してますね。　ただお客さんの中で　男、僕だけ。　そりゃ、そーなるよ　オサレカフェだもん。　なんか、すみません。　いや、何となく。　本日の上生菓子「手毬」　クリスマスバージョンです。　クリスマス上生菓子　販売始めましたが　ちょっと間に合ってない感じです。　ご予約いただければ　合わせてお作りできます。　18日ぐらいまでは
+                                            ご予約承ります。　本日、和菓子日和です。　————————————————-和菓子 くわざわ　福島県石川郡石川町双里神主20-1 ☎︎0247262851 open 7:30 - close 19:00 水曜定休　————————————————-</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-news__list scroll__element scroll__off scroll__off2">
+                                <a href="">
+                                    <div class="p-news__img">
+                                        <img src="assets/other/transparent.PNG">
+                                        <div>
+                                            <span class="scroll__imgSmall">
+                                                <span></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="p-news__text">
+                                        <p class="p-news__textDate c-fO c-palt">2022.12.2</p>
+                                        <p class="p-news__textDisc c-fS c-palt">・　１００パー負ける。４-０。　なんて言って　ホントにごめんなさい。　早く起きてよかった！　今の時代に生きててよかった！！　サッカー日本代表　無敵艦隊スペイン撃破！　ブラボーーーー！！！！！！！！！　
+                                            ふだんサッカー観てないのに　なんでこんなに感動できるのか　ちょっと考えてみたんですが　サッカーに加えて　選手の極限での感情とか　サポーターの祈りとか　追い込まれてるチームの状況とか　国民性とか　そんなことにも惹かれるのかもしれません。　
+                                            ニュースに映る渋谷の交差点見て　「これ日本？」　って末娘が言うのも　いいなぁと思います。　本日の上生菓子「桜紅葉」　今月からクリスマス限定の　上生菓子を販売したいと思ってますが　なかなか進みません。　ご予約頂けると幸いです🙏　—--——————————————-
+                                            和菓子 くわざわ　福島県石川郡石川町双里神主20-1 ☎︎ 0247262851 open 7:30 - close 19:00 水曜定休　—--——————————————-</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-news__list scroll__element scroll__off scroll__off2">
+                                <a href="">
+                                    <div class="p-news__img">
+                                        <img src="assets/other/transparent.PNG">
+                                        <div>
+                                            <span class="scroll__imgSmall">
+                                                <span></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="p-news__text">
+                                        <p class="p-news__textDate c-fO c-palt">2022.11.29</p>
+                                        <p class="p-news__textDisc c-fS c-palt">・　もう12月になりますね。和菓子屋なんですが クリスマスツリーを飾って　BGMもクリスマスっぽくしています。 クリスマスソングって　たくさんありますが　中でも好きな曲は　ジョンレノンの「Happy Xmas」
+                                            近くにいた次女に　何が好きか聞いてみたら　超マイナーユーチューバーの　オリジナルソング　って返ってきたので　話まったく膨らまずに終了しました。　十人十色です。　本日の上生菓子「茶の花」　お茶の先生から上生菓子に関して　お褒めの言葉を頂戴し　大変恐縮しております。　
+                                            ————————————————-和菓子 くわざわ　福島県石川郡石川町双里神主20-1 ☎︎0247262851 open 7:30 - close 19:00 水曜定休　————————————————-</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-news__list scroll__element scroll__off scroll__off2">
+                                <a href="">
+                                    <div class="p-news__img">
+                                        <img src="assets/other/transparent.PNG">
+                                        <div>
+                                            <span class="scroll__imgSmall">
+                                                <span></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="p-news__text">
+                                        <p class="p-news__textDate c-fO c-palt">2022.11.24</p>
+                                        <p class="p-news__textDisc c-fS c-palt">・　サッカーW杯 先週ぐらいに　今年やってるって　知ったんですが　昨夜、日本対ドイツ戦　４年に１回しか　サッカー見ない僕でも　テレビの前で震えました。　戦略って大事ですね。　森保監督が描いた盤面　見事でした。　まさに　「ドーハの悲劇」　↓　「ドーハの歓喜」　
+                                            思いのほか　盛り上がってしまいまして　選手のインタビュー聞きながら　「歴史的勝利」に祝杯あげたら　本日も安定の寝不足です。　本日の上生菓子「山茶花」　お茶席の主菓子として　ご利用いただきました。　いつもありがとうございます。　————————————————-
+                                            和菓子 くわざわ　福島県石川郡石川町双里神主20-1 ☎︎0247262851 open 7:30 - close 19:00 水曜定休　————————————————-</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="p-footer">
+            <div class="p-footer__inner">
+                <div class="p-footer__block scroll__element scroll__off scroll__off1">
+                    <div class="p-onlineshop">
+                        <a href="" class="p-section__detail">
+                            <div class="p-onlineshop__img scroll__imgBig">
+                                <img src="assets/slider/slider9.PNG">
+                                <img src="assets/slider/slider3.PNG">
+                            </div>
+                            <p class="c-fS c-palt">オンラインショップ</p>
+                            <div>
+                                <span class="p-section__detailScroll">
+                                    <span class="p-section__detailHover"></span>
+                                </span>
+                            </div>
+                            <p class="c-fO c-palt">ONLINE SHOP</p>
+                        </a>
+                    </div>
+                    <div class="p-footer__logo">
+                        <a href="">
+                            <img src="assets/icon/logo.PNG">
+                        </a>
+                    </div>
+                    <div class="p-footer__text">
+                        <p class="c-fS c-palt">くわざわ</p>
+                        <p class="c-fS c-palt">営業時間／AM7:30～PM19:00<br class="p-footer__textTb p-footer__textSp"><span class="p-footer__textPc">　</span>定休日／水曜日　(祝祭日以外)</p>
+                        <p class="c-fS c-palt">TEL.<a href="tel:0000-000-000">0000-00-0000</a>　FAX.0000-00-0000<br class="p-footer__textTb p-footer__textSp"><span class="p-footer__textPc">　</span>〒963-7808 福島県石川郡石川町双里字神主20-1</p>
+                    </div>
+                    <div class="p-footer__contact">
+                        <a href="">
+                            <p class="c-fS c-palt">お問い合わせ</p>
+                        </a>
+                    </div>
+                    <div class="p-footer__sns">
+                        <a href="">
+                            <img src="assets/icon/insta.PNG">
+                        </a>
+                    </div>
+                    <div class="p-footer__copyright">
+                        <p class="c-fO c-palt">@2022 okashinokuwazawa</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

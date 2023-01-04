@@ -1,0 +1,16 @@
+@media screen and (min-width: 1000px) {
+  .p-footer__textSp {
+    display: none !important;
+  }
+  .p-footer__textPc {
+    display: inline-block !important;
+  }
+  .p-footer__textTb {
+    display: none !important;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1199px) {
+  .p-firstview__inner {
+    padding: 0;
+  }
+}/*# sourceMappingURL=pc.css.map */
