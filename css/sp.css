@@ -142,8 +142,8 @@ a {
 }
 
 .load__stop .p-scrolldot__dot div {
-  -webkit-animation: scrolldot1 2s ease-in-out 1s infinite;
-          animation: scrolldot1 2s ease-in-out 1s infinite;
+  -webkit-animation: scrolldot1 1.25s ease-in-out 1s infinite;
+          animation: scrolldot1 1.25s ease-in-out 1s infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
 }
@@ -2502,7 +2502,7 @@ a {
   background-image: url(../assets/insta/nerikiri3.jpg);
 }
 .p-news__list:nth-child(4) .p-news__img div span span {
-  background-image: url(../assets/insta/nerikiri4.JPG);
+  background-image: url(../assets/insta/nerikiri4.jpg);
 }
 .p-news__img {
   width: 100%;
@@ -2770,6 +2770,10 @@ a {
 }
 
 @media screen and (max-width: 559px) {
+  .p-scrolldot__dot {
+    bottom: 30px;
+    left: 30px;
+  }
   .p-menu {
     overflow-x: hidden;
     overflow-y: auto;

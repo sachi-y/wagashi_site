@@ -95,20 +95,6 @@ $(function() {
 // $(function slideStop(){
 //     clearInterval(slideTimer)});
 
-// function loadSetting(){
-//     $(".wrap").removeClass("load__on"),
-//     $(".wrap").addClass("load__off"),
-//     $(".wrap").delay(500).queue(function(){$(this).addClass("load__stop").dequeue()}),
-//     nowHash&&setTimeout(function(){
-//         var t=$("#"+nowHash);
-//         if(t=t.length&&t,t.length){
-//             var e=t.offset().top-0;
-//             $(html,body).animate({scrollTop:e},2e3,"easeInOutExpo")}},500),
-//             scrollSetting()};
-// function fontSetting(){FLAutoKerning.process($(".kerning_target")),
-//     $(".kerning_target").addClass("kerning_complete"),
-//     $(".kerning_target").removeClass("kerning_target")};
-
 /*scroll*/
 $(window).scroll(function() {
     //ウィンドウの高さを取得
