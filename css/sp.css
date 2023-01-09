@@ -2883,6 +2883,7 @@ a {
     line-height: 18px;
     -ms-writing-mode: lr-tb;
         writing-mode: horizontal-tb;
+    color: rgba(0, 0, 255, 0);
   }
   .p-section {
     padding: 45px 30px;
@@ -2926,6 +2927,9 @@ a {
   .p-about__title p {
     font-size: 24px;
     line-height: 48px;
+  }
+  .p-about__text {
+    text-align: justify;
   }
   .p-about__text p {
     font-size: 16px;
